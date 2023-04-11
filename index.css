@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+    box-shadow: 0 0 10px 1px gray;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+.company-logo {
+    color: hsl(120, 50%, 40%);
+    font-size: 3rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    padding: 1rem;
+}
+
+.nav-links li:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 90%);
+}
