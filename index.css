@@ -13,9 +13,10 @@ header {
     justify-content: space-between;
     padding: 0 1em;
     box-shadow: 0 0 10px 1px gray;
-    position: fixed;
+    /* position: fixed;
     right: 0;
-    left: 0;
+    left: 0; */
+    background-color: white;
 }
 
 .company-logo {
@@ -35,4 +36,49 @@ header {
 .nav-links li:hover {
     cursor: pointer;
     background-color: hsl(0, 0%, 90%);
+}
+
+.intro-container {
+    background-image: url('./assets/intro-background.jpg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.intro {
+    background-color: hsla(120, 50%, 25%, 0.9);
+    color: white;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0.2em;
+}
+
+.intro-tag-line {
+    padding: 0.2em;
+    font-size: 1.5rem;
+
+}
+
+.intro-get-started {
+    background-color: white;
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    color: hsl(0, 0%, 20%);
+}
+
+.intro-get-started:hover {
+    transform: scale(1.05);
 }
