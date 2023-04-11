@@ -120,6 +120,29 @@
 }
 
 @media only screen and (max-width: 760px) {
+    .intro {
+        justify-content: space-evenly;
+
+    }
+
+    .intro-heading {
+        font-size: 2rem;
+    }
+
+    .intro-tag-line {
+        font-size: 1.2rem;
+    }
+
+    .work-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .work-item-image {
+        height: 15vmax;
+    }
+
+
     .summary-list {
         flex-direction: column;
     }
