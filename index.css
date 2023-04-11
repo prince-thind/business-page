@@ -8,6 +8,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+ul {
+    list-style-type: none;
+
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -26,7 +31,6 @@ header {
 
 .nav-links {
     display: flex;
-    list-style-type: none;
 }
 
 .nav-links li {
@@ -81,4 +85,35 @@ header {
 
 .intro-get-started:hover {
     transform: scale(1.05);
+}
+
+.section-heading {
+    text-align: center;
+    color: hsl(120, 50%, 40%);
+    font-size: 3rem;
+    padding: 1em;
+}
+
+.work-item {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    place-items: center;
+    padding-bottom: 4em;
+    direction: rtl;
+    padding-left: 3em;
+}
+
+.work-item:nth-child(2n-1) {
+    direction: ltr;
+}
+
+
+.work-item-heading {
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+    color: hsl(0, 0%, 20%);
+}
+
+.work-item-image {
+    height: 20vh;
 }
