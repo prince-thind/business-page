@@ -1,0 +1,120 @@
+.intro-container {
+    background-image: url('/assets/intro-background.jpg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.intro {
+    background-color: hsla(120, 50%, 25%, 0.9);
+    color: white;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0.2em;
+}
+
+.intro-tag-line {
+    padding: 0.2em;
+    font-size: 1.5rem;
+
+}
+
+.intro-get-started {
+    background-color: white;
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    color: hsl(0, 0%, 20%);
+}
+
+.intro-get-started:hover {
+    transform: scale(1.05);
+}
+
+.section-heading {
+    text-align: center;
+    color: hsl(120, 50%, 40%);
+    font-size: 3rem;
+    padding: 1em;
+}
+
+.work-item {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    place-items: center;
+    padding-bottom: 4em;
+    direction: rtl;
+    padding-left: 3em;
+}
+
+.work-item:nth-child(2n-1) {
+    direction: ltr;
+}
+
+.work-item-heading {
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+    color: hsl(0, 0%, 20%);
+}
+
+.work-item-image {
+    height: 20vh;
+}
+
+.summary {
+    padding: 1rem;
+    background-color: hsl(120, 50%, 25%);
+    color: white
+}
+
+.summary-heading {
+    color: white;
+    padding: 1rem;
+}
+
+.summary-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.summary-item-heading {
+    padding: 1rem;
+}
+
+.summary-item {
+    background-color: hsla(120, 50%, 5%, 0.5);
+    width: 20vw;
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+
+.footer {
+    background-color: hsl(0, 0%, 10%);
+    color: white;
+    padding: 4rem;
+}
+
+.copyright {
+    padding: 1rem;
+    max-width: fit-content;
+    padding-right: 4rem;
+    border-right: 1px solid hsl(0, 0%, 20%);
+    font-size: 1.2rem;
+}
+
+.copyright-logo {
+    font-size: 10rem;
+}
