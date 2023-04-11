@@ -22,8 +22,53 @@
         </ul>
     </header>
     <main>
-        <form>
+        <form class="form">
+            <div class="general-info">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your EMail" required>
+                <label for="age">Age </label>
+                <input type="number" name="age" id="age" max="100" min="12" placeholder="Enter your Age">
+                <label for="dropdown">Which option best describes you?</label>
+                <select name="designation" id="dropdown">
+                    <option value="">Please Select an Option</option>
+                    <option value="student">Student</option>
+                    <option value="business">Business Person</option>
+                    <option value="full-time-employed">Full Time Employed</option>
+                    <option value="self-employed">Self-Employed</option>
+                    <option value="staff-member">Staff-Member</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <fieldset class="checkbox-fieldset fieldset">
+                <legend class="legend"> What Type of Services would you like?<span class="optional">(check all
+                        that
+                        Apply)</span></legend>
+                <div class="mark-group">
+                    <label for="study-portal">Study Portal</label>
+                    <input type="checkbox" id="study-portal" value="study-portal" name="services">
+                </div>
+                <div class="mark-group">
 
+                    <label for="college-application">College Application</label>
+                    <input type="checkbox" id="college-application" value="college-application" name="service">
+                </div>
+                <div class="mark-group">
+
+                    <label for="visa-assitance">Visa Assitance</label>
+                    <input type="checkbox" id="visa-assitance" value="visa-assitance" name="service">
+                </div>
+                <div class="mark-group">
+
+                    <label for="mentoring">Mentoring</label>
+                    <input type="checkbox" id="mentoring" value="mentoring" name="service">
+                </div>
+
+            </fieldset>
+            <label for="textarea"> Other comments<span class="optional">(Optional)</span></label>
+            <textarea class="textarea" id="textarea" placeholder="Enter your Remarks here" name="remarks"></textarea>
+            <button type="submit" class="submit"> Submit</button>
         </form>
     </main>
 </body>
