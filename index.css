@@ -107,7 +107,6 @@ header {
     direction: ltr;
 }
 
-
 .work-item-heading {
     font-size: 2rem;
     padding-bottom: 0.5em;
@@ -116,4 +115,32 @@ header {
 
 .work-item-image {
     height: 20vh;
+}
+
+.summary {
+    padding: 1rem;
+    background-color: hsl(120, 50%, 25%);
+    color: white
+}
+
+.summary-heading {
+    color: white;
+    padding: 1rem;
+}
+
+.summary-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.summary-item-heading {
+    padding: 1rem;
+}
+
+.summary-item {
+    background-color: hsla(120, 50%, 5%, 0.5);
+    width: 20vw;
+    padding: 2rem;
+    border-radius: 1rem;
+
 }
