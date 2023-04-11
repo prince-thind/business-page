@@ -40,6 +40,11 @@ main {
     margin-bottom: 2rem;
 }
 
+.legend {
+    margin: 0 auto;
+
+}
+
 
 
 .mark-group {
@@ -75,6 +80,10 @@ main {
 
 .submit:hover {
     cursor: pointer;
+}
+
+.response {
+    padding: 1rem;
 }
 
 .success {
