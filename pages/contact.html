@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/index.css">
     <link rel="stylesheet" href="/stylesheets/contact.css">
     <script src="https://kit.fontawesome.com/23e33e7608.js" crossorigin="anonymous"></script>
+    <script defer src="../lib/form.js"></script>
 </head>
 
 <body>
@@ -22,7 +23,7 @@
         </ul>
     </header>
     <main>
-        <form class="form">
+        <form class="form" id="form">
             <div class="general-info">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" placeholder="Enter your Name" required>
@@ -68,8 +69,11 @@
             </fieldset>
             <label for="textarea"> Other comments<span class="optional">(Optional)</span></label>
             <textarea class="textarea" id="textarea" placeholder="Enter your Remarks here" name="remarks"></textarea>
-            <button type="submit" class="submit"> Submit</button>
+            <button type="submit" class="submit" id="submit-button"> Submit</button>
         </form>
+        <p class="response" id="response">
+
+        </p>
     </main>
 </body>
 

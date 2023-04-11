@@ -77,6 +77,14 @@ main {
     cursor: pointer;
 }
 
+.success {
+    color: hsl(120, 100%, 85%);
+}
+
+.disabled {
+    background-color: gray;
+}
+
 /*media queries*/
 
 @media only screen and (max-width: 760px) {
