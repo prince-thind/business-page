@@ -144,3 +144,21 @@ header {
     border-radius: 1rem;
 
 }
+
+footer {
+    background-color: hsl(0, 0%, 10%);
+    color: white;
+    padding: 4rem;
+}
+
+.copyright {
+    padding: 1rem;
+    max-width: fit-content;
+    padding-right: 4rem;
+    border-right: 1px solid hsl(0, 0%, 20%);
+    font-size: 1.2rem;
+}
+
+.copyright-logo {
+    font-size: 10rem;
+}
