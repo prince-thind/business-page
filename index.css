@@ -39,6 +39,11 @@ header {
 }
 
 .nav-links li {
+    display: flex;
+    flex: 1;
+}
+
+.nav-links a {
     padding: 1rem;
 }
 
